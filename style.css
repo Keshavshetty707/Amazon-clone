@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* box-1 */
+.navbar{
+    height: 60px;
+    background-color:#131921;
+    color: white; /* this line for text color of the nav bar */
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 55px;
+    width: 128.73px;
+    
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 122.73px;
+    
+}
+.border{
+    border: 1.5px solid transparent ;
+}
+.border:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+.in{
+    position: absolute; 
+    margin-left: 110px; 
+    margin-top: 23px;
+    font-size: 13.5px;
+} 
+/* box-2 */
+.address-1{
+    font-size: 0.75rem;
+    color: #cccccc;
+    margin-left: 16px;
+}
+.address-2{
+    font-size: 0.9rem;
+     font-weight: bold;
+     color: #ffffff;
+     margin-left: 4px;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address{
+    margin-left: 15px;
+   position:relative;
+   margin-top: 10px;
+   
+}
+.nav-address-border{
+    border: 1.5px solid transparent ;
+    height:55px;
+    width: 13rem;
+    align-items: center;
+}
+.nav-address-border:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+/* box-3 */
+.nav-search{
+    display: flex;
+    background-color:#febd69;
+    width: 735px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.nav-search:hover{
+   cursor: pointer;
+}
+.search-select{
+text-align: center;
+width:53px;
+border-bottom-left-radius: 3px;
+border-top-left-radius: 3px;
+background-color: #e6e6e6;
+border: none;
+}
+.search-input{
+width: 635px;
+font-size:15px ;
+border: none;
+}
+.nav-search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-left: 11px;
+    color: #333333;
+}
+/* box-4 */
+.nav-lang ,a ,img{
+    width: 25px;
+    height:30px;
+    margin-left:3.5px;
+    margin-top: 1.5px;
+   
+}
+.nav-lang{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 24px;
+    width: 65px;
+    height:52px;
+    
+
+}
+.nav-lang-p{
+    margin-left: 3px;
+    font-size: 13.5px;
+    margin-top: 7px;
+}
+.nav-lang:hover{
+cursor: pointer;
+border:1.5px solid white;
+border-radius: 2px;
+}
+/* box-5 */
+.nav-sign-greet{
+    margin-top: 10px;
+}
+.nav-sign-greet1{
+    font-size: 12.35px;
+    margin-left: 5px;  
+}
+.nav-sign-list{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.nav-signin{
+
+width:130px;
+height:52px;
+align-items: center;
+
+}
+.nav-signin:hover{
+    cursor: pointer;
+border: 1.5px solid white;
+border-radius: 2px;
+}
+/* box-5 */
+.nav-return{
+    font-size: 12.35px;
+    margin-left: 7px;
+}
+.nav-order{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+.nav-return-order{
+width: 75px;
+height:52px;
+}
+.nav-return-orderp{
+    margin-top: 10px;
+}
+.nav-return-order:hover{
+    cursor: pointer;
+border:1.5px solid white;
+border-radius: 2px;
+}
+/* box-6 */
+.nav-cart-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-cart-icon i{
+    font-size: 30px;
+    margin-left: 7px;
+}
+.nav-cart-icon p{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.nav-cart-icon{
+width: 90px;
+height: 52px;
+}
+.nav-cart-icon:hover{
+    cursor: pointer;
+    border:1.5px solid white;
+    border-radius: 2px;
+}
+/* nav-2 */
+.nav-2{
+    height: 39px;
+    background-color: #232f3e;
+    
+}
+.nav-2-ele{
+    display: flex;
+    justify-content: space-evenly;
+    width:87rem;
+}
+.nav-2-ele p{
+    color: white;
+ padding-top: 10px;
+  height: 39px;
+}
+.nav-2-ele i{
+    color: white;
+    padding-top: 10px;
+    height: 39px;
+}
+
+.nav-2-ele p:hover{
+    cursor: pointer;
+border:1.5px solid white;
+border-radius: 2px;
+}
+.nav-2-ele i:hover{
+    cursor: pointer;
+border:1.5px solid white;
+border-radius: 2px;
+}
+/* hero section */
