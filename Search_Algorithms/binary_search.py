@@ -20,8 +20,7 @@ print("Enter the elements: ")
 for i in range(0, n):
     element = int(input())
     list.append(element)
-#sort the array in case desending order elements
-list.sort()
+
 #Accept key element
 key = int(input("Enter the element to be searched: "))
 #call fuction lsearch
